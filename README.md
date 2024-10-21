@@ -48,15 +48,14 @@ Make sure you have the following installed:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/digital-albums.git
-
+   git clone https://github.com/Gaurang1901/Albums-Website.git
    cd digital-albums
    ```
 
 2. **Backend Setup(SpringBoot)**
 -Navigate to Backend Directory
 ```bash
-cd backend
+cd Albums Backend
 ```
 - Update the MySQL configuration in `application.properties`:
 ```
@@ -73,7 +72,7 @@ mvn spring-boot:run
 
 - Navigate to the `frontend` directory: 
 ```
-cd frontend
+cd Albums FrontEnd
 ```
 - Install dependencies:
 ```
@@ -92,11 +91,11 @@ npm start
 
 digital-albums/
 │
-├── backend/              # Spring Boot backend
+├── Albums Backend/              # Spring Boot backend
 │   ├── src/              
 │   └── pom.xml           
 │
-├── frontend/             # React frontend
+├── Albums Frontend/             # React frontend
 │   ├── src/
 │   └── package.json      
 │
